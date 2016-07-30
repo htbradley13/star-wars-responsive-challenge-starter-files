@@ -1,0 +1,27 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+header	{
+	background-color: #ffbb33;
+	padding: 1px;
+}
+
+h1, h4 {
+	margin-left: 25%;
+	line-height: 15px;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 700;
+}
+
+h4	{
+	font-weight: lighter;
+	font-style: 400;
+}
+
+.row {
+	margin-bottom: 20px;
+}
