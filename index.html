@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="Description" content="Star Wars Digital Baseball Cards Page">
@@ -16,50 +16,84 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- My Stylesheets: -->
-
-  	<!-- My Float Grid Stylesheet -->
   		<link rel="stylesheet" href="css/float-grid.css" />
-
-  	<!-- My Main Stylesheet: -->
 		<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<header>
-		<h1>Star Wars Characters</h1>
-		<h4>Incomplete list</h4>
-	</header>
-	<div class="Picture-section">
-	
-	<div class="row">
-      <div class="row-1">
-      	<img src="images/rey_square.png" class="First-pic">
-        <div class="box Ray">4 columns</div>
-      </div>
-      <div class="row-1">
-      	<img src="images/finn_square.png" >
-        <div class="box Finn">4 columns</div>
-      </div>
-      <div class="row-1">
-      	<img src="images/kylo_square.png" >
-        <div class="box Kylo">4 columns</div>
-      </div>
-    </div>
-
+  <header>
     <div class="row">
-      <div class="row-2">
-      	<img src="images/poe_square.png" class="First-pic">
-        <div class="box Poe">4 columns</div>
+      <div class="col-12">
+        <h1>Star Wars Characters</h1>
+        <p>Incomplete list</p>
       </div>
-      <div class="row-2">
-      	<img src="images/chewbacca_square.png" >
-        <div class="box Chewbacca">4 columns</div>
-      </div>
-      <div class="row-2">
-      	<img src="images/yoda_square.png" >
-        <div class="box Yoda">4 columns</div>
+    </div>
+  </header>
+
+  <div class="row">
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/rey_square.png" />
+        <div class="card-content">
+          <h3>Ray</h3>
+          <p>Protagonist, from Tatooine</p>
+        </div>
       </div>
     </div>
 
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/finn_square.png" />
+        <div class="card-content">
+          <h3>Finn</h3>
+          <p>Storm Trooper, befriends Ray</p>
+        </div>
+      </div>
     </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/kylo_square.png" />
+        <div class="card-content">
+          <h3>Kylo</h3>
+          <p>Main villain, or is he?</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/poe_square.png" />
+        <div class="card-content">
+          <h3>Poe</h3>
+          <p>Neutral pilot</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/chewbacca_square.png" />
+        <div class="card-content">
+          <h3>Chewbacca</h3>
+          <p>A great first mate</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="card">
+        <img class="card-image" src="images/yoda_square.png" />
+        <div class="card-content">
+          <h3>Yoda</h3>
+          <p>Wise old Jedi master</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
